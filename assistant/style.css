@@ -1,0 +1,161 @@
+/* basic color */
+:root{
+    --bg-black1:#302e4d;
+    --bg-black2:#504e70;
+}
+
+/* Entire Body */
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+
+/* For Right */
+.asideRight{
+    float: right;
+    text-align: center;
+    height: 100%;
+    width: 79%;
+
+}
+
+/* home */
+.home{
+    margin: 12%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.intro{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    color:aliceblue;
+    background-color: #302e4d;
+    padding:10px 40px;
+    border-radius: 50px;
+    
+}
+.img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    color: RoyalBlue;
+    text-shadow: rgba(29, 33, 46, 0.336) 1px 0 10px;
+}
+.img>img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border-top: green 10px solid;
+    border-left: green .5px solid;
+    border-right:red .5px solid;
+border-bottom: red 10px solid;
+
+}
+.typing{
+    color: RoyalBlue
+}
+
+/* about */
+.about{
+    margin: 12%;
+    text-align: left;
+}
+.aboutMeHeadingds {
+    border-bottom:5px royalblue solid ;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+    font-size: 26px;
+}
+.defination{
+    margin-top: 4%;
+}
+
+
+.sklndBio{
+  display: flex;
+  align-items: center;
+  margin:2% 0%;
+  
+}
+.bagholder{
+    width: 60%;
+    
+    
+}
+
+.Bagbio{
+    margin: 10px 20px ;
+    display: block;
+}
+
+.biodata{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.skils{
+    width: 40%;
+}
+.SocialMidea{
+    height: 40px;
+    width: 40px ;
+    background-color:antiquewhite;
+    border: black 1px solid;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5%;
+}
+
+/* btn in about me */
+.ContactBtn{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.education>h1
+{
+color: royalblue;
+margin-top: 2%;
+}
+.education>p{
+border-left: royalblue 5px solid; border-radius: 5px;
+padding: 15PX ;
+}
+
+/* Services */
+.services{
+    margin: 12%;
+}
+.services .service {
+    display: flex;
+    place-items: center;
+}

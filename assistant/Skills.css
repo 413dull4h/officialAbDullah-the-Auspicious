@@ -1,0 +1,186 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.skills_section {
+    width: 100%;
+    height: 100vh;
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skills_head {
+    width: 100%;
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.skills_head h2 {
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+.skills_head h2 span {
+    color: #e74d06;
+}
+
+.skills_main {
+    width: 100%;
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+
+.skills_main .skill_bar .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+
+/*  */
+
+.skill_bar .bar {
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.skill_bar .bar span {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #e74d06;
+    border-radius: 25px;
+}
+
+.skill_bar .bar .html {
+    width: 96%;
+    animation: html 2s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 96%;
+    }
+}
+
+.skill_bar .bar .css {
+    width: 91%;
+    animation: css 2s;
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 91%;
+    }
+}
+
+.skill_bar .bar .Bootstrap {
+    width: 88%;
+    animation: Bootstrap 2s;
+}
+
+@keyframes Bootstrap {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 88%;
+    }
+}
+
+.skill_bar .bar .js {
+    width: 85%;
+    animation: js 2s;
+}
+
+@keyframes js {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+.skill_bar .bar .react {
+    width: 85%;
+    animation: react 2s;
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+.skill_bar .bar .node {
+    width: 78%;
+    animation: node 2s;
+}
+
+@keyframes node {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 78%;
+    }
+}
+
+.skill_bar .bar .Tailwind  {
+    width: 88%;
+    animation: Tailwind  2s;
+}
+
+@keyframes Tailwind  {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 88%;
+    }
+}
+
+.skill_bar .bar .mongo {
+    width: 78%;
+    animation: mongo 2s;
+}
+
+@keyframes mongo {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 78%;
+    }
+}
