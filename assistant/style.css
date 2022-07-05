@@ -154,8 +154,63 @@ padding: 15PX ;
 /* Services */
 .services{
     margin: 12%;
+    /* display: flex; */
+
 }
-.services .service {
-    display: flex;
-    place-items: center;
+.service {
+    margin-top: 5%;
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.serve{
+background-color: rgb(247, 240, 232);
+border-radius: 5px;
+margin: 10%;
+border-left:royalblue 5px solid; 
+border-bottom: royalblue 5px solid;
+box-shadow: 10px 10px 10px rgba(26, 27, 27, 0.219);
+}
+
+.sertext{
+    text-align: left;
+    padding: 10% 10%;
+}
+
+.serimg{
+    margin-top: 5%;
+    height: 250px;
+    border: royalblue 1px solid;
+    border-radius: 3px;
+}
+.Order{
+
+    color: #fafafd;
+    background-color: #302e4d;
+    padding: 10px 20px ;
+    border-radius: 5%;
+
+}
+.SocialMideaIC{
+    height: 40px;
+    width: 40px ;
+    background-color:antiquewhite;
+    border: black 1px solid;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5%;
+
+}
+
+.Cm>a{
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+    text-align: left ; 
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #504e70;
+    font-weight: bold;
 }
