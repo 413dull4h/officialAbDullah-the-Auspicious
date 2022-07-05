@@ -201,7 +201,9 @@ box-shadow: 10px 10px 10px rgba(26, 27, 27, 0.219);
     margin: 5%;
 
 }
-
+.Cm{
+    margin-bottom: 5%;
+}
 .Cm>a{
     display:inline-block;
     justify-content: center;
