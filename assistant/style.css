@@ -4,6 +4,89 @@
     --bg-black2:#504e70;
 }
 
+
+/* left side */
+.asideLeft {
+    float: left;
+    width: 21%;
+    background-color: var( --bg-black2);
+    color: aliceblue;
+    text-align: center;
+    position: fixed;
+    display: block;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    top: 8%;
+    display: block; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topLogoBor{
+    border-left:royalblue 5px solid ;
+    border-top:royalblue 5px solid ;
+    padding-top: 7px;
+    padding-left: 7px;
+    border-radius: 5px;
+
+}
+.botLogoBor{
+    border-bottom:RoyalBlue 5px solid ;
+    border-right:RoyalBlue 5px solid ;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    border-radius: 5px;
+
+}
+.logo>div{
+    text-align: left;
+}
+
+
+
+.LeftElement{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+    border-bottom: 1px solid royalblue;
+    text-align: left ; 
+    padding: 12px;
+}
+
+.LeftElement>a{
+color: aliceblue;
+list-style-type: none;
+font-size: 16px;
+padding-top: 15px;
+padding-bottom: 7px;
+}
+
+.LeftElement>a>span{
+    margin-left: 15px;
+    margin: 18px 25px;
+}
+
+
+
+
+.iconNav{
+    height: 26px;
+    width:26px ;
+    padding:5px;
+    background-color: aliceblue;
+    border-radius: 30%;
+    float: left;
+    
+} 
+
+
 /* Entire Body */
 
 
@@ -58,6 +141,7 @@ body {
 }
 .img{
     width: 40%;
+    margin-left: 5%     ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,6 +185,7 @@ border-bottom: red 10px solid;
   display: flex;
   align-items: center;
   margin:2% 0%;
+  padding-top: 4%;
   
 }
 .bagholder{
@@ -108,6 +193,10 @@ border-bottom: red 10px solid;
     
     
 }
+.Data{
+    display:flex
+}
+
 
 .Bagbio{
     margin: 10px 20px ;
@@ -134,12 +223,18 @@ border-bottom: red 10px solid;
 
 /* btn in about me */
 .ContactBtn{
-    
+    margin-top:7% ;
+    margin-bottom: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
   
 }
+
+.midContact>h1{
+margin-bottom: 5%;
+}
+
 
 .education>h1
 {
@@ -161,6 +256,11 @@ padding: 15PX ;
     margin-top: 5%;
     display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.ContactMeIc{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
 }
 
 .serve{
@@ -202,7 +302,7 @@ box-shadow: 10px 10px 10px rgba(26, 27, 27, 0.219);
 
 }
 .Cm{
-    margin-bottom: 5%;
+    margin-bottom: 4%;
 }
 .Cm>a{
     display:inline-block;
@@ -215,4 +315,21 @@ box-shadow: 10px 10px 10px rgba(26, 27, 27, 0.219);
     text-decoration: none;
     color: #504e70;
     font-weight: bold;
+}
+
+@media only screen and (max-width:992px) {
+    .asideLeft{
+        display: none;
+    }
+    .asideRight{
+        width: 100%;
+    }
+    .sklndBio{
+        flex-direction: column;
+    }
+    .Data{
+        width: 100%;
+        padding: 0%;
+        flex-direction: column;
+    }
 }

@@ -13,11 +13,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 15%;
 }
 
 .skills_head {
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 12%;
     display: grid;
     place-items: center;
     text-align: center;
