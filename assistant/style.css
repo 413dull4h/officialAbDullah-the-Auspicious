@@ -106,7 +106,17 @@ body {
     box-sizing: border-box;
 }
 
-
+/*============= 
+Responsive Bar 
+//this bar will shown only in tab and phone 
+==============*/
+.reaponsiverBar{
+    display: none;
+    background-color: #104666e8;
+    position: fixed;
+    width: 100%;
+    color: white;
+}
 
 
 /* For Right */
@@ -163,6 +173,15 @@ border-bottom: red 10px solid;
 .typing{
     color: RoyalBlue
 }
+/* 
+call de hala
+*/
+.CallDe{
+   text-align:center;
+    margin-top:5%;
+}
+
+
 
 /* about */
 .about{
@@ -317,6 +336,8 @@ box-shadow: 10px 10px 10px rgba(26, 27, 27, 0.219);
     font-weight: bold;
 }
 
+
+/* MOSTLY FOR TABS(SOME FUNCTIONS INCLUDE PHONES) */
 @media only screen and (max-width:992px) {
     .asideLeft{
         display: none;
@@ -331,5 +352,38 @@ box-shadow: 10px 10px 10px rgba(26, 27, 27, 0.219);
         width: 100%;
         padding: 0%;
         flex-direction: column;
+    }
+    .reaponsiverBar{
+        display: block;
+    }
+}
+
+@media only screen and (max-width:688px) {
+    .home{
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    }
+    .img{
+        margin-top: 10%;
+    } 
+    .service{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sklndBio{
+        align-items:flex-start ;
+    }
+    .serimg{
+        width: 75%;
+        height: auto;
+    }
+    .CallDe{
+        margin-top: 5%;
+        text-align: left;
+    }
+    .button{
+        border-radius: 5%;
+        margin: 0;
+        justify-content: flex-start;
     }
 }
